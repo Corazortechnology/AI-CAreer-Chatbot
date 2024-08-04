@@ -17,7 +17,7 @@ from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.llms.openai import OpenAI
 from llama_index.retrievers.bm25 import BM25Retriever
-from src.prompt import get_chat_prompt
+from prompt import get_chat_prompt
 
 # Load environment variables
 load_dotenv()
