@@ -15,6 +15,7 @@ app = FastAPI()
 orig_origins = [
     "http://localhost:3000",  # React app's URL
     "http://localhost:8000",  # Your FastAPI server URL
+    "https://edlighten-ai.vercel.app",
 ]
 
 app.add_middleware(
