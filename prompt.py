@@ -29,7 +29,7 @@ def get_chat_prompt():
         ),
         ChatMessage(
             role=MessageRole.USER,
-            content="Name: Suryansh" # Pass the user details here
+            content="Name: my friend" # Pass the user details here
         ),
     ]
     
